@@ -1,0 +1,19 @@
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Secrets and local config
+.env
+
+# Notebook cache
+.ipynb_checkpoints/
+
+# Generated retrieval artifacts (reproducible from notebooks)
+artifacts/
+
+# Generated processed datasets that are too large for git
+# Keep raw data and source notebooks in version control.
+data/processed/chunks_*.jsonl
+data/processed/sec_corpus.jsonl

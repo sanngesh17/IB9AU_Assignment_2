@@ -1,0 +1,5 @@
+strategy,num_chunks,num_filings_covered,mean_chars,median_chars,p95_chars,min_chars,max_chars,total_chars
+fixed,4625,24,548.3,560.0,777.8,169,920,2535845
+section,4341,24,547.8,562.0,779.0,144,895,2378080
+semantic,7609,24,245.0,178.0,714.6,50,1592,1864299
+hierarchical,6136,24,286.1,206.0,759.0,100,1592,1755244

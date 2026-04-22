@@ -1,0 +1,17 @@
+strategy,mode,mean,median
+fixed,bm25,0.0359,0.0351
+fixed,hybrid,0.0793,0.0784
+fixed,hybrid+rerank,0.8369,0.8326
+fixed,vector,0.0579,0.0306
+hierarchical,bm25,0.0457,0.0426
+hierarchical,hybrid,0.0843,0.0839
+hierarchical,hybrid+rerank,0.6085,0.5907
+hierarchical,vector,0.0538,0.0223
+section,bm25,0.0362,0.0346
+section,hybrid,0.0827,0.0798
+section,hybrid+rerank,0.8044,0.8031
+section,vector,0.027,0.0244
+semantic,bm25,0.0546,0.05
+semantic,hybrid,0.0987,0.0968
+semantic,hybrid+rerank,0.6118,0.582
+semantic,vector,0.0608,0.0242

@@ -1,0 +1,17 @@
+strategy,mode,context_precision@5,context_recall@5,top5_jaccard_overlap
+fixed,bm25,0.268,0.708,0.281
+fixed,hybrid,0.25,0.631,0.274
+fixed,hybrid+rerank,0.291,0.722,0.306
+fixed,vector,0.174,0.39,0.267
+hierarchical,bm25,0.215,0.774,0.374
+hierarchical,hybrid,0.215,0.717,0.358
+hierarchical,hybrid+rerank,0.252,0.837,0.388
+hierarchical,vector,0.185,0.597,0.399
+section,bm25,0.259,0.706,0.279
+section,hybrid,0.238,0.671,0.258
+section,hybrid+rerank,0.276,0.723,0.307
+section,vector,0.182,0.448,0.278
+semantic,bm25,0.212,0.766,0.374
+semantic,hybrid,0.212,0.707,0.342
+semantic,hybrid+rerank,0.262,0.84,0.385
+semantic,vector,0.175,0.562,0.381

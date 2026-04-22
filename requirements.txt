@@ -1,0 +1,15 @@
+requests
+pandas
+numpy
+beautifulsoup4
+lxml
+sentence-transformers
+faiss-cpu
+rank-bm25
+scikit-learn
+matplotlib
+ipywidgets
+tqdm
+openai
+python-dotenv
+tiktoken
